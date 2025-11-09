@@ -19,7 +19,7 @@ function App() {
 
     <h2 className='text-center mb-5'>How is the sky looking today ?</h2>
         <Search />
-<div className='h-screen'>
+<div >
 
    {error&&    <h2 className='text-center font-bold text-3xl mb-5'>No Search result found!</h2>}
 
