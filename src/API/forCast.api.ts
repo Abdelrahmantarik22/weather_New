@@ -4,7 +4,7 @@ import axios from "axios";
 export default async function forCastDays (city:string|'cairo') {
 
     try {
-        const response=await axios.get('http://api.weatherapi.com/v1/forecast.json',{
+        const response=await axios.get('https://api.weatherapi.com/v1/forecast.json',{
              params:{
                 key:'a57bc4b37891402eb98112911253006',
                 days:7,
