@@ -27,9 +27,7 @@ const [open ,setOpen]=useState(false)
            
       weatherData(city)
         },[city])
-        console.log(weather);
-        console.log(ND);
-        console.log(DayName);
+        
         
 
 

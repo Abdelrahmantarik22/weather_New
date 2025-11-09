@@ -9,7 +9,6 @@ export default function ForCastDaysComp({forcast}:{forcast:Root}) {
         const temp = useSelector(selectTemp);
   const skele = useSelector(selectSkele);
 
-console.log(forcast);
 
 
   return (

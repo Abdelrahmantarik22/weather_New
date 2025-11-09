@@ -46,7 +46,6 @@ export default function CurrentWeatherComp() {
 
         dispatch(En())
     }
-    console.log(data);
     
       return data;
     };

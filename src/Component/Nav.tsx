@@ -7,7 +7,6 @@ export default function Nav() {
 
 
     const [open ,setOpen]=useState(false)
-    console.log(open);
     
   return (
     <nav className='w-full px-2 absolute top-0 left-0  h-20'>

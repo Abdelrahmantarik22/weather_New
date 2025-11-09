@@ -10,7 +10,6 @@ function App() {
 
       const error = useSelector(selectError);
    
-  console.log(error);
 
 
   return (
